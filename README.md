@@ -1,11 +1,10 @@
 # Healthcare-associated infection (HCAI) prediction
 
-
-# TESTE!!!
-
 This repository contains files relating to the article "Prediction of healthcare-associated infection in hospitalized patients with COVID-19" submitted to American Journal of Infection Control.
 
-Você poderá encontrar uma pasta chamada Datasets, contendo os arquivos de dados utilizados na pesquisa, conforme explicado no item *Datasets*
+In this repository you can find a folder called Datasets, containing the data files used in the research, as explained in the item *Datasets*.
+
+Também poderá encontrar os arquivos XXX XXX XXX XX
 
 ## Datasets
 Os datasets estão disponíveis em três arquivos ".csv", contendo dados dos exames, desfechos e pacientes. Esses dados foram baixados do repositório aberto COVID-19 Datasharing FAPESP (https://repositoriodatasharingfapesp.uspdigital.usp.br/) 
