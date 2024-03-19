@@ -1,5 +1,5 @@
 # Healthcare-associated infection (HCAI) prediction
-This repository contains files about the article "Prediction of healthcare-associated infection in hospitalized patients with COVID-19," submitted to the American Journal of Infection Control. In this repository, you can find a folder called Datasets, containing the row data files used in the research, as explained in the item *Datasets*. You can also find the files used in the dataset construction as explained in the item *DatasetsConstruction*. In the main directory of this repository, there are the following files:
+This repository contains files about the article "Healthcare-associated infection prediction on hospitalized COVID-19 patients" submitted to the Computers (ISSN: 2073-431X) journal. In this repository, you can find a folder called Datasets, containing the row data files used in the research, as explained in the item *Datasets*. You can also find the files used in the dataset construction as explained in the item *DatasetsConstruction*. In the main directory of this repository, there are the following files:
 
 - "mainNotebook.ipynb": this is the main notebook with descriptive statistical analysis, data discretization, preprocessing, training and testing of machine learning models and SHAP analysis.
 
