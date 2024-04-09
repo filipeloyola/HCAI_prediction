@@ -13,14 +13,14 @@ This repository contains files about the article "Healthcare-associated infectio
 
 
 ## Datasets
-The row data is available in three ".csv" files, containing data from patients who were tested for COVID-19 as of 11/1/2019: (1) Spreadsheet with anonymized data about patients; (2) Respective laboratory test results, including the anonymized patient identifier and a service identifier; (3) Outcomes - each record includes describes a patient's care, and the corresponding outcome, when applicable. This data was downloaded from the COVID-19 Data Sharing FAPESP open repository (https://repositoriodatasharingfapesp.uspdigital.usp.br/).
+The row data is available in three ".csv" files, containing data from patients who were tested for COVID-19 as of 11/1/2019: (1) "HSL_Pacientes_4.csv": Spreadsheet with anonymized data about patients; (2) "HSL_Exames_4.csv": Respective laboratory test results, including the anonymized patient identifier and a service identifier; (3) "HSL_Desfechos_4.csv": Outcomes - each record includes describes a patient's care, and the corresponding outcome, when applicable. This data was downloaded from the COVID-19 Data Sharing FAPESP open repository (https://repositoriodatasharingfapesp.uspdigital.usp.br/).
 
 ## Dataset construction
 In the "DatasetConstruction" directory, you can check the notebook used to connect the row datasheets. Exams and Outcomes spreadsheets are interlinkable by pair (patient identifier, service identifier). In the "Datasets_construction.ipynb", the study was carried out together with the medical professional to select the essential variables for the research and eliminate correlated variables with each other. In this directory, it is also possible to check the list of tests considered for the diagnosis of COVID-19 and hospital infection in the files "exames_COVID19_considerados.xlsx" and "exames_infeccoes.xlsx." Furthermore, the spreadsheets "lista_covid_positivity.xlsx" and "lista_infec_positivity.xlsx" are files only used in the dataset construction process, not the main steps.
 
 
 ## Citation
-In construction
+In construction. 
 
 ## Acknowledgements
 This research was supported in part by the Coordenação de Aperfeiçoamento de Pessoalde Nível Superior - Brasil (CAPES) - Finance Code 001. The authors gratefully acknowledge the Brazilian funding agency FAPESP (Fundação Amparo à Pesquisa do Estado de São Paulo) for the COVID-19 Data Sharing repository.
