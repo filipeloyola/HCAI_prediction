@@ -1,5 +1,5 @@
 # Healthcare-associated infection (HCAI) prediction
-This repository contains files about the article "Healthcare-associated infection prediction on hospitalized COVID-19 patients" submitted to the Computers (ISSN: 2073-431X) journal. In this repository, you can find a folder called Datasets, containing the row data files used in the research, as explained in the item *Datasets*. You can also find the files used in the dataset construction as explained in the item *DatasetsConstruction*. In the main directory of this repository, there are the following files:
+This repository contains files about the article "Healthcare-associated infection prediction on hospitalized COVID-19 patients" submitted to the Brazilian Congress on Biomedical Engineering. In this repository, you can find a folder called Datasets, containing the row data files used in the research, as explained in the item *Datasets*. You can also find the files used in the dataset construction as explained in the item *DatasetsConstruction*. In the main directory of this repository, there are the following files:
 
 - "mainNotebook.ipynb": this is the main notebook with descriptive statistical analysis, data discretization, preprocessing, training and testing of machine learning models and SHAP analysis.
 
@@ -13,12 +13,11 @@ This repository contains files about the article "Healthcare-associated infectio
 
 
 ## Datasets
-The row data is available in three ".csv" files, containing data from patients who were tested for COVID-19 from 2020-02-26 to 2021-06-15: 
+The row data is available in three ".csv" files, containing data from patients who were tested for COVID-19 from 2020-02-26 to 2020-12-29: 
 
-- (1) "HSL_Pacientes_4.csv": Spreadsheet with anonymized data about patients;
- 
-- (2) "HSL_Exames_4.csv": Respective laboratory test results, including the anonymized patient identifier and a service identifier; 
-- (3) "HSL_Desfechos_4.csv": Outcomes - each record includes describes a patient's care, and the corresponding outcome, when applicable. 
+- (1) "HSL_Pacientes_3.csv": Spreadsheet with anonymized data about patients;
+- (2) "HSL_Exames_3.csv": Respective laboratory test results, including the anonymized patient identifier and a service identifier; 
+- (3) "HSL_Desfechos_3.csv": Outcomes - each record includes describes a patient's care, and the corresponding outcome, when applicable. 
 
 This data was downloaded from the COVID-19 Data Sharing FAPESP open repository (https://repositoriodatasharingfapesp.uspdigital.usp.br/).
 
