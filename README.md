@@ -16,9 +16,9 @@ In the "DatasetConstruction" directory, you can check the notebooks used to conn
 
 - "Covid_exploratory_analysis.ipynb": In this file, all patients diagnosed with COVID-19 via PCR are identified and a first patient filter is performed. At the end of the code, the following spreadsheet is generated: "lista_covid_positivito.xlsx";
 
-- "Patients_selection.ipynb": This file checks positive and non-positive patients for hospital infections. At the end of the code, the following spreadsheets are generated: "pacientes_positivos.xlsx" and "pacientes_positivos.xlsx";
+- "Patients_selection.ipynb": This file checks positive and non-positive patients for hospital infections. At the end of the code, the following spreadsheets are generated: "pacientes_positivos.xlsx" and "pacientes_negativos.xlsx";
 
-- "Datasets_construction.ipynb": In this dataset, we select the desired variables for the research datasets. First, we discarded variables with more than 50% null values. Next, we perform manual attribute selection. We did a manual selection with a doctor specialized in the field. In manual selection, we discard variables that are correlated with each other. In the end, two sets of data were generated: "original_dataset.xlsx" and "discreted_dataset.xlsx".
+- "Datasets_construction.ipynb": In this dataset, we select the desired variables for the research datasets. First, we discarded variables with more than 50% null values. Next, we perform manual attribute selection. We did a manual selection with a doctor specialized in the field. In manual selection, we discard variables that are correlated with each other. In the end, two datasets were generated: "original_dataset.xlsx" and "discreted_dataset.xlsx".
 
 
 The "DatasetsConstruction" directory also has the following files:
